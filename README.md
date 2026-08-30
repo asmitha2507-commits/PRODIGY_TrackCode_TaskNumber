@@ -72,3 +72,102 @@ Titanic passenger dataset containing information about passengers, including:
 ## Files
 - `Task_02_Titanic_EDA.ipynb` - Titanic EDA notebook
 - `titanic_cleaned.csv` - Cleaned Titanic dataset
+# Task-04: Social Media Sentiment Analysis
+
+## 📌 Project Overview
+
+This project analyzes sentiment patterns in social media data to understand public opinions and attitudes toward different topics, brands, and entities.
+
+The dataset contains social media posts along with the entity/topic they refer to and their corresponding sentiment category.
+
+## 🎯 Objective
+
+The main objectives of this project are:
+
+- Analyze sentiment patterns in social media data.
+- Identify the distribution of Positive, Negative, Neutral, and Irrelevant sentiments.
+- Find entities with the highest positive sentiment.
+- Find entities with the highest negative sentiment.
+- Visualize sentiment patterns using charts.
+- Generate a word cloud to identify frequently used words.
+
+## 📂 Dataset
+
+The dataset used for this project is the Twitter/Social Media Sentiment Analysis dataset provided for Prodigy InfoTech Task 04.
+
+The dataset contains the following columns:
+
+- **ID** – Unique identifier for each tweet.
+- **Entity** – Brand, game, company, or topic mentioned in the tweet.
+- **Sentiment** – Sentiment classification of the tweet.
+- **Text** – The actual social media post.
+
+## 🛠️ Technologies Used
+
+- Python
+- Google Colab
+- Pandas
+- Matplotlib
+- Seaborn
+- WordCloud
+- NumPy
+
+## 🔍 Data Analysis
+
+The following steps were performed:
+
+1. Loaded the dataset using Pandas.
+2. Inspected the dataset using `df.info()`.
+3. Checked for missing values.
+4. Analyzed the number of tweets for each entity.
+5. Analyzed sentiment distribution across different entities.
+6. Calculated sentiment percentages.
+7. Identified the most positive entities.
+8. Identified the most negative entities.
+9. Created visualizations to compare sentiment patterns.
+10. Generated a word cloud of frequently occurring words.
+11. Created an overall sentiment distribution chart.
+
+## 📊 Key Findings
+
+The overall sentiment distribution was:
+
+| Sentiment | Percentage |
+|-----------|------------|
+| Negative | 30.2% |
+| Positive | 27.9% |
+| Neutral | 24.5% |
+| Irrelevant | 17.4% |
+
+The analysis showed that **Negative sentiment** had the highest proportion at approximately **30.2%**, while **Positive sentiment** accounted for approximately **27.9%**.
+
+### Most Positive Entity
+
+**AssassinsCreed** had the highest positive sentiment percentage, at approximately **64.41%**.
+
+### Most Negative Entity
+
+**MaddenNFL** had the highest negative sentiment percentage, at approximately **71.27%**.
+
+## 📈 Visualizations
+
+The project includes:
+
+- Sentiment distribution across the top entities
+- Most positive entities
+- Most negative entities
+- Sentiment percentage comparison
+- Overall sentiment distribution pie chart
+- Social media word cloud
+
+## 💡 Conclusion
+
+The sentiment analysis provides an overview of public opinion across different brands, games, and topics. The results show that negative sentiment was slightly more common than positive sentiment in the dataset.
+
+The analysis demonstrates how data visualization and sentiment analysis can be used to understand public attitudes and identify entities receiving more positive or negative reactions.
+
+## 👨‍💻 Author
+
+**Prodigy InfoTech – Data Science Internship**
+
+**Task 04: Sentiment Analysis**
