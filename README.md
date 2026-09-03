@@ -17,6 +17,12 @@ A histogram was created to visualize the distribution of population across count
 
 ## Observation
 The histogram shows a highly right-skewed distribution. Most countries have relatively smaller populations, while only a few countries have very large populations.
+
+
+
+
+
+
 ---
 
 # PRODiGY Task 2 - Titanic EDA
@@ -72,6 +78,10 @@ Titanic passenger dataset containing information about passengers, including:
 ## Files
 - `Task_02_Titanic_EDA.ipynb` - Titanic EDA notebook
 - `titanic_cleaned.csv` - Cleaned Titanic dataset
+
+
+
+
 # Task-04: Social Media Sentiment Analysis
 
 ## 📌 Project Overview
@@ -171,3 +181,61 @@ The analysis demonstrates how data visualization and sentiment analysis can be u
 **Prodigy InfoTech – Data Science Internship**
 
 **Task 04: Sentiment Analysis**
+
+
+
+
+
+# ProDigy Infotech Task-05 — Traffic Accident Data Analysis
+
+## 📌 Project Overview
+
+This project analyzes US traffic accident data to identify patterns related to weather conditions, road conditions, time of day, accident severity, and geographical location.
+
+## 🎯 Objectives
+
+- Analyze accidents based on time of day
+- Study weather conditions associated with accidents
+- Analyze road-related factors
+- Identify accident hotspots
+- Analyze accident severity
+- Create visualizations to communicate findings
+
+## 🛠️ Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Google Colab
+
+## 📊 Dataset
+
+US Accidents Dataset
+
+Due to computational memory limitations, a sample of 30,155 accident records was used for the analysis.
+
+## 🔍 Analysis Performed
+
+- Accident severity distribution
+- Accidents by hour
+- Weather condition analysis
+- Visibility analysis
+- Road feature analysis
+- State-wise accident analysis
+- Geographical hotspot visualization
+- Weather vs. severity analysis
+- Time vs. severity analysis
+
+## 📈 Key Findings
+
+The analysis identified differences in accident frequency across time periods, weather conditions, road features, and geographical locations. Clear weather was the most frequently recorded weather condition in the analyzed sample.
+
+## 📝 Conclusion
+
+The project demonstrates how data analysis and visualization can be used to identify patterns in traffic accident data and provide insights that may support road-safety planning.
+
+## 👩‍💻 Author
+
+Asmitha
