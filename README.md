@@ -80,7 +80,7 @@ Titanic passenger dataset containing information about passengers, including:
 - `titanic_cleaned.csv` - Cleaned Titanic dataset
 
 
-
+------
 
 # Task-04: Social Media Sentiment Analysis
 
@@ -184,7 +184,7 @@ The analysis demonstrates how data visualization and sentiment analysis can be u
 
 
 
-
+-------
 
 # ProDigy Infotech Task-05 — Traffic Accident Data Analysis
 
@@ -236,6 +236,6 @@ The analysis identified differences in accident frequency across time periods, w
 
 The project demonstrates how data analysis and visualization can be used to identify patterns in traffic accident data and provide insights that may support road-safety planning.
 
-## 👩‍💻 Author
 
-Asmitha
+
+
